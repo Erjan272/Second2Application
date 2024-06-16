@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fail"
+    tools:context=".MainActivity">
+
+    <ImageView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/_text5"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/owl__1_"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:background="@drawable/fail2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:background="@drawable/ic_arrow2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="300sp"
+        android:text="               Trivia"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/_text5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <EditText
+        android:id="@+id/_text"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="35sp"
+        android:background="@drawable/rami"
+        android:hint="   Username"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/_text4"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/_text2"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rami2"
+        android:hint="   Email"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/_text"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/_text3"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rami3"
+        android:hint="   Password"
+        android:textColorHint="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/_text2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/_text5"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/button"
+        android:drawableRight="@drawable/ic_arrow"
+        android:text="     Next"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/_text3"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
